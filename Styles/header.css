@@ -16,7 +16,7 @@ html, body {
 body {
 	margin: 0;
 	font-family: 'Poppins', system-ui, '-apple-system', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial;
-	background: none;
+	background: var(--bg); /* ensure page background is dark to avoid white gaps */
 	color: #d6d6d6;
 }
 
@@ -93,6 +93,17 @@ body {
 	background: transparent;
 	color: #8de19a;
 	font-weight: 700;
+	/* when the badge is an image we don't want the extra box around it */
+	padding: 0;
+	border-radius: 0;
+	border: none;
+	width: 38px;
+	height: 33px;
+	display: block;
+}
+
+/* If you keep the badge as a span with text, use this to show the pill */
+.avatar__badge--pill {
 	padding: 6px 8px;
 	border-radius: 10px;
 	border: 2px solid rgba(255, 255, 255, 0.04);

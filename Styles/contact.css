@@ -1,0 +1,118 @@
+/* Contact section background + Contact cards layout */
+.contact {
+	/* gradient layer on top of the background image */ 
+  padding: 100px;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(231, 108, 108, 0.1));
+  background-image:		url('../Assets/Background_Intro.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: overlay;
+}
+
+.contact__wrap {
+	max-width: 940px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 32px 16px;
+}
+
+.contact__kicker {
+  color: var(--accent);
+	font-size: 20px;
+  margin: 0 0 8px;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contact__title {
+	color: #eaf2ff;
+	margin: 0 0 8px 0;
+}
+
+.contact__lead {
+	color: #9fa7b0;
+	margin-bottom: 18px;
+}
+
+.contact__grid {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	max-width: 520px;
+	margin: 0 auto; /* center the column group */
+}
+
+.contact__card {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: #24272b;
+	padding: 14px 16px;
+	border-radius: 12px;
+	color: #e6eef9;
+	text-decoration: none;
+	transition: background .18s ease, transform .08s ease;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.02) inset;
+    width: 100%;
+}
+
+.contact__left {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.contact__icon {
+	width: 44px;
+	height: 44px;
+	display: grid;
+	place-items: center;
+	background: #2b2f33;
+	border-radius: 10px;
+	color: #7fc7ff;
+	flex-shrink: 0;
+}
+
+.contact__icon img {
+	width: 20px;
+	height: 20px;
+	object-fit: contain;
+}
+
+.contact__text {
+  display: flex;
+  align-items: center; /* vertical center the name relative to the icon */
+}
+
+.contact__text strong {
+  font-size: 15px;
+  line-height: 1;
+  color: #eaf2ff;
+  margin: 0;
+}
+
+.contact__arrow {
+	color: #4fb3ff;
+	font-size: 18px;
+	transition: transform .18s ease, color .18s ease;
+	margin-left: 12px;
+}
+
+.contact__card:hover {
+	background: #2b2f33;
+}
+
+.contact__card:hover .contact__arrow {
+	transform: translateX(6px);
+	color: #7fd0ff;
+}
+
+@media (max-width: 420px) {
+	.contact__text strong { font-size: 14px; }
+	.contact__text small { font-size: 12px; }
+	.contact__icon { width: 40px; height: 40px; }
+	.contact__grid { max-width: 100%; }
+}
+
