@@ -1,37 +1,30 @@
-# 📦 Portfólio
+## 📌 Sobre o Projeto
 
-> Uma descrição curta e impactante sobre o que este projeto faz e qual problema ele resolve.
+Este é o meu portfólio pessoal, um espaço onde apresento minha trajetória, habilidades e os projetos que desenvolvi. 
 
----
+**Por que este projeto é importante?**
+1. **Demonstração Técnica:** Prova minhas habilidades em HTML5 e CSS3 sem o uso de frameworks (ou com uso estratégico deles).
+2. **Processo Criativo:** Mostra como interpreto protótipos do Figma e os transformo em produtos reais.
+3. **Hub de Projetos:** Serve como uma vitrine organizada para que recrutadores e clientes possam avaliar meu código e design de forma centralizada.
 
-## ✨ Funcionalidades
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=0F172A&labelColor=1D4ED8">
+</p>
 
-- [x] Funcionalidade principal A
-- [x] Funcionalidade principal B
-- [ ] Funcionalidade C (Em desenvolvimento)
+## 🛠️ Tecnologias e Conceitos
 
-## 🛠 Tecnologias
+Neste projeto, apliquei conceitos fundamentais de Front-end:
 
-As seguintes ferramentas foram usadas na construção do projeto:
+- **HTML5 Semântico:** Para melhor acessibilidade e SEO.
+- **Flexbox & CSS Grid:** Para criação de layouts complexos e flexíveis.
+- **Responsividade:** Estratégia Mobile-First.
+- **Variáveis CSS:** Para facilitar a manutenção de cores e fontes.
 
-- [HTML](https://nodejs.org/)
-- [CSS](https://reactjs.org/)
+## 📱 Responsividade
 
-## 🚀 Como executar o projeto
+O projeto foi desenvolvido para ser visualizado em qualquer dispositivo:
+- Desktop (1440px+)
+- Tablet (768px)
+- Mobile (375px)
 
-### Pré-requisitos
-Antes de começar, você vai precisar ter instalado em sua máquina o [Git](https://git-scm.com)
 
-### 🏁 Rodando a aplicação
-```bash
-# Clone este repositório
-$ git clone [https://github.com/seu-usuario/nome-do-projeto](https://github.com/seu-usuario/nome-do-projeto)
-
-# Acesse a pasta do projeto no terminal/cmd
-$ cd nome-do-projeto
-
-# Instale as dependências
-$ npm install
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev
