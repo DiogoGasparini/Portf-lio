@@ -1,3 +1,11 @@
+
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Responsividade</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
+
+
 ## 📌 Sobre o Projeto
 
 Este é o meu portfólio pessoal, um espaço onde apresento minha trajetória, habilidades e os projetos que desenvolvi. 
