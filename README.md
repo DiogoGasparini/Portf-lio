@@ -7,9 +7,13 @@ Este é o meu portfólio pessoal, um espaço onde apresento minha trajetória, h
 2. **Processo Criativo:** Mostra como interpreto protótipos do Figma e os transformo em produtos reais.
 3. **Hub de Projetos:** Serve como uma vitrine organizada para que recrutadores e clientes possam avaliar meu código e design de forma centralizada.
 
+
+
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=0F172A&labelColor=1D4ED8">
 </p>
+
+
 
 ## 🛠️ Tecnologias e Conceitos
 
@@ -19,6 +23,8 @@ Neste projeto, apliquei conceitos fundamentais de Front-end:
 - **Flexbox & CSS Grid:** Para criação de layouts complexos e flexíveis.
 - **Responsividade:** Estratégia Mobile-First.
 - **Variáveis CSS:** Para facilitar a manutenção de cores e fontes.
+
+
 
 ## 📱 Responsividade
 
