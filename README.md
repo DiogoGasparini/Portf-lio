@@ -5,6 +5,12 @@
   <a href="#memo-licença">Licença</a>
 </p>
 
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=0F172A&labelColor=1D4ED8">
+</p>
+
+<img width="1920" height="1080" alt="Thumbnail" src="https://github.com/user-attachments/assets/12e148be-0f84-431d-9711-eff794a9b7da" />
+
 
 ## 📌 Sobre o Projeto
 
@@ -14,13 +20,6 @@ Este é o meu portfólio pessoal, um espaço onde apresento minha trajetória, h
 1. **Demonstração Técnica:** Prova minhas habilidades em HTML5 e CSS3 sem o uso de frameworks (ou com uso estratégico deles).
 2. **Processo Criativo:** Mostra como interpreto protótipos do Figma e os transformo em produtos reais.
 3. **Hub de Projetos:** Serve como uma vitrine organizada para que recrutadores e clientes possam avaliar meu código e design de forma centralizada.
-
-
-
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=0F172A&labelColor=1D4ED8">
-</p>
-
 
 
 ## 🛠️ Tecnologias e Conceitos
